@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  color: #f9edcc;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #61210f;
+  padding: 0px 0px 20px 0px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #61210f;
+}
+
+p {
+  font-weight: normal;
+  line-height: 2;
+}
+a {
+  color: #f9edcc;
+  text-decoration: none;
+}
+hr {
+  border-width: 10px 0px 0px 0px;
+  height: 0px;
+  width: 8%;
+  border-style: dotted;
+  margin: 0px auto 100px auto;
+}
+hr:hover {
+  color: #61210f;
+  border-width: 10px 0px 0px 0px;
+  height: 0px;
+  width: 8%;
+  border-style: dotted;
+  margin: 0px auto 100px auto;
+}
+
+.top-container {
+  background-color: #61210f;
+  position: relative; /* top-container, position ist relativ, damit er zum Elternteil wird für die absoluten wolken
+  sonst wäre der body das Elternteil.*/
+  padding-top: 100px;
+}
+
+.untertitel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #f9edcc;
+  padding: 0px;
+}
+
+.middle-container {
+}
+.contact-me {
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: #61210f;
+  color: #f9edcc;
+  padding-top: 50px;
+  position: relative;
+}
+a.footer-link {
+}
+
+
+a.urheber-link1:hover {
+}
+/* Bilder und Icons*/
+.profilfoto {
+  height: 150px;
+  width: 150px;
+}
+.weltkugel {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.surfbrett {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.instagram-icon {
+  background-color: #f9edcc;
+  height: 50px;
+  width: 50px;
+  padding: 2px;
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+.minireis-icon {
+  background-color: #f9edcc;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 2px;
+  margin-top: 20px;
+  position: absolute;
+  left: 41%;
+  top: 26%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* Button CSS von externer Seite*/
+.BUTTON_JIK {
+  background: #612102;
+  background-image: -webkit-linear-gradient(top, #612102, #f9edcc);
+  background-image: -moz-linear-gradient(top, #612102, #f9edcc);
+  background-image: -ms-linear-gradient(top, #612102, #f9edcc);
+  background-image: -o-linear-gradient(top, #612102, #f9edcc);
+  background-image: -webkit-gradient(to bottom, #612102, #f9edcc);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 10px;
+  margin-top: 50px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_JIK:hover {
+  background: #612102;
+  border: solid #000000 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
